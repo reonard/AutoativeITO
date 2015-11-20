@@ -24,10 +24,10 @@ from socket import gethostname
 smtpserver = 'smtp.126.com'
 sender = 'reonard@126.com'
 password = 'o8987378'
-receiver = ('jinming.huang@cimc.com', 'bo.zhou.ds@cimc.com','huibing.liu@cimc.com','chunhua.huang@cimc.com', 'yongting.yang@cimc.com')
+receiver = ('')
 subject = u'--Web服务器Tomcat日志错误信息'
 From = u'reonard@126.com'
-To = u'jinming.huang@cimc.com'
+To = u''
 
 #定义tomcat日志文件位置
 tomcat_log = '/u01/ces/tomcat-7.0.59-interface/logs'
